@@ -1,0 +1,115 @@
+% This work is licensed under a CC0 1.0 Universal
+% http://creativecommons.org/publicdomain/zero/1.0/
+%
+% This theme was created by Ekaterina Gerasimova <kittykat3756@gmail.com> for
+% GUADEC 2013.
+
+\documentclass{beamer}
+
+\include{guadec-theme}
+
+\usepackage[english]{babel}
+
+\usepackage[latin1]{inputenc}
+
+\usepackage{times}
+\usepackage[T1]{fontenc}
+
+\title[Optional short paper title]
+{Full title}
+
+%\subtitle
+%{Optional subtitle}
+
+\author
+{Rupert Monkey, \href{mailto:rupertmonkey@example.com}{\texttt{rupertmonkey@example.com}}}
+
+%\institute[University of GNOME]
+
+\date%[GUADEC 2013]
+{GUADEC 2013}
+
+%Table of contents
+%\AtBeginSubsection[]
+%{
+%  \begin{frame}<beamer>{Outline}
+%    \tableofcontents[currentsection,currentsubsection]
+%  \end{frame}
+%}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+%\begin{frame}{Outline}
+%  \tableofcontents
+%\end{frame}
+
+
+\section{Wow, you first section title!}
+
+\subsection{Have fun at GUADEC!}
+
+\begin{frame}{Your first slide title}
+  \begin{itemize}
+  \item
+    Item 1
+  \item
+    Item 2
+  \item
+    Item 3
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Second slide}
+  \begin{itemize}
+  \item
+    Say something else
+  \item
+    And some more
+  \end{itemize}
+\end{frame}
+
+
+\begin{frame}{Summary}
+
+  \begin{itemize}
+  \item
+    The \alert{first main point}
+  \item
+    The \alert{second important point}
+  \end{itemize}
+
+  \vskip0pt plus.5fill
+  \begin{itemize}
+  \item
+    The future
+    \begin{itemize}
+    \item
+      What are you planning?
+    \item
+      Anything else?
+    \end{itemize}
+  \end{itemize}
+\end{frame}
+
+
+\appendix
+\section<presentation>*{\appendixname}
+\subsection<presentation>*{Resources}
+
+\begin{frame}[allowframebreaks]
+  \frametitle<presentation>{Resources}
+
+  \begin{thebibliography}{10}
+
+  \bibitem{code}
+    Some link
+    \newblock <link>
+
+  \end{thebibliography}
+\end{frame}
+
+\end{document}
