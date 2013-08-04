@@ -14,9 +14,10 @@
   \setbeamercolor{section in head/foot}{fg=white, bg=muddyblue}
   \setbeamercolor{bibliography entry author}{fg=muddyblue}
   \setbeamertemplate{navigation symbols}{}
+  \setbeamertemplate{itemize items}{\includegraphics[scale=.2]{gnome-foot.mps}}
 
   \setbeamercovered{transparent}
 }
 
-\pgfdeclareimage[height=1cm]{guadec-logo}{guadec-logo.pdf}
-\logo{\pgfuseimage{guadec-logo}}
+\usepackage{graphicx}
+\logo{\includegraphics[height=1cm]{guadec-logo.mps}}
